@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0; /* Remove default margin */
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.verse-container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px; /* Limit the width */
+    width: 90%; /* Make it responsive */
+}
+
+h2 {
+    font-size: 1.5em; /* Slightly smaller heading */
+    margin-bottom: 15px; /* Space below the heading */
+    color: #4CAF50; /* Change heading color */
+}
+
+#arabicVerse {
+    font-size: 1.3em; /* Smaller Arabic verse */
+    margin: 10px 0; /* Space above and below */
+    line-height: 1.4; /* Increase line height for readability */
+}
+
+#englishTranslation {
+    font-size: 1.1em; /* Smaller English translation */
+    font-style: italic; /* Keep italic style */
+    margin-bottom: 10px; /* Space below the translation */
+    color: #555; /* Lighter color for translation */
+}
+
+#suraInfo {
+    font-size: 0.9em; /* Smaller sura info */
+    margin-top: 10px; /* Space above sura info */
+    color: #888; /* Gray color for less emphasis */
+}

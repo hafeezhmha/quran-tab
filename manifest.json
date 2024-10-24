@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Quran Verse Fetcher",
+    "version": "1.0",
+    "permissions": [
+        "activeTab"
+    ],
+    "background": {
+        "service_worker": "background.js"
+    },
+    "action": {
+        "default_popup": "newtab.html",
+        "default_icon": "quran.png"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self';"
+    }
+}
