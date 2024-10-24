@@ -5,7 +5,7 @@ This Chrome extension displays a random verse from the Quran along with its Engl
 
 ## Features
 - Displays a random verse in Arabic.
-- Provides the English translation from Pickthall's translation.
+- Provides the English translation.
 - Minimalistic and user-friendly design.
 
 ## Demo
